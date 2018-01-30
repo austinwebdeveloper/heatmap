@@ -57,7 +57,7 @@
  </head>
  <body>
 
- 	<div id="base_url" style="display:none;">https://w2t.austinconversionoptimization.como/heatmap/</div>
+ 	<div id="base_url" style="display:none;">https://w2t.austinconversionoptimization.com/heatmap/</div>
 
  	<div id="filters">
  		<?php
