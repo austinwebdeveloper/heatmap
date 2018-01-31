@@ -386,8 +386,7 @@ $select_query="SELECT * FROM `user_locations` WHERE (ground='foreground' and cre
 	{	
 		while($row2 = mysqli_fetch_assoc($query2)) 
 		{
-			//$result[] = array('['.$row['latitude'],$row['longitude'].']');
-			//ho $row['start_location_lat'].'viji';
+			//$result[] = array('['.$row['latitude'],$row['longitude'].']');			
 		$result5[] = array('latitude'=>$row2['startlat'],'longitude'=>$row2['startlon']);
 		}
         
