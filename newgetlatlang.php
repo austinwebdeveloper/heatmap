@@ -358,7 +358,7 @@ $result1= $query_fest->fetch_assoc();
 		while($row = mysqli_fetch_assoc($query1)) 
 		{
 			//$result[] = array('['.$row['latitude'],$row['longitude'].']');
-			//ho $row['start_location_lat'].'viji';
+			
 			$result3[] = array('latitude'=>$row['startlat'],'longitude'=>$row['startlon']);
 		}
 	}
